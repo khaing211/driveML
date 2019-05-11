@@ -1,0 +1,16 @@
+@startuml
+
+title Drive Loop
+
+start
+
+while (Power On?)  is (Yes)
+  :Frame Capture;
+  :TODO;
+endwhile (No)
+
+:Power Off;
+
+stop
+
+@enduml
